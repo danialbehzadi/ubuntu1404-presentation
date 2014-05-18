@@ -59,7 +59,7 @@ body {
 }
 
 .little {
-    font-size: 0.9em;
+    font-size: 0.99em;
 }
 
 .orange {
@@ -104,6 +104,20 @@ i, em, .italic { font-style: italic }
 
 .center {
     text-align: center;
+}
+
+.left {
+    position: relative;
+    float: left;
+    width: 50%;
+    display: inline-block;
+}
+
+.right {
+    position: absolute;
+    float: right;
+    width: 50%;
+    display: inline-block;
 }
 
 a {
