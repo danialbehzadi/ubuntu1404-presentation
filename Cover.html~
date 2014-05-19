@@ -38,11 +38,11 @@
 </head>
 
 <body class="cover">
-    <p class="subtitle center orange">ubuntu 14.04</p>
+    <p class="subtitle center orange">Ubuntu 14.04</p>
     <p class="center orange">Release Patry</p>
 	<div class="botbar">
         <p class="center white"><br /><br />Presented to you by:</p>
-        <p class="little center white"><br />"Danial Behzadi" from ubuntu-ir</p>
+        <p class="little center white"><br />"Danial Behzadi" from Ubuntu-ir</p>
         
     </div>
 	<a href="index.html"><div class="logo"></div></a>

@@ -25,8 +25,54 @@ body {
     background: url(../images/warty-final-ubuntu.jpg) center center no-repeat;
 }
 
+.slide {
+    display: block;
+
+    width: 30em;
+    height: 21.5em;
+    padding: 1.5em 2em;
+
+    background-color: white;
+    border: 0.05em solid rgba(0, 0, 0, .3);
+    border-radius: 0.5em;
+    box-shadow: 0 0.1em 0.2em rgba(0, 0, 0, .1);
+
+    color: rgb(102, 102, 102);
+    text-shadow: 0 0.08em 0.08em rgba(0, 0, 0, .1);
+
+    font-family: 'Ubuntu';
+    font-size: 0.833em;
+    line-height: 1.2em;
+    letter-spacing: -0.05em;
+    
+    overflow: hidden;
+}
+
+.impress-enabled .step {
+    margin: 0;
+    opacity: 0.7;
+    transition:         opacity 1s;
+}
+
+.impress-enabled .step.active {
+    opacity: 1
+}
+
 .cover {
-    background: white;
+    background: #2B001D;
+    color: white;
+}
+
+.tahr {
+    position: fixed;
+    height: 55%;
+    padding: 0 2em;
+    right: 0;
+    bottom: 0;
+}
+
+.main {
+    transition: 5s;
 }
 
 .botbar {
@@ -59,7 +105,7 @@ body {
 }
 
 .little {
-    font-size: 0.99em;
+    font-size: 0.95em;
 }
 
 .orange {
@@ -73,33 +119,10 @@ body {
 b, strong, .bold { font-weight: bold }
 i, em, .italic { font-style: italic }
 
-.impress-enabled .step {
-    margin: 0;
-    opacity: 0.7;
-    transition:         opacity 1s;
-}
-
-.impress-enabled .step.active { opacity: 1 }
-
-.slide {
-    display: block;
-
-    width: 30em;
-    height: 21.5em;
-    padding: 1.5em 2em;
-
-    background-color: white;
-    border: 0.05em solid rgba(0, 0, 0, .3);
-    border-radius: 0.5em;
-    box-shadow: 0 0.1em 0.2em rgba(0, 0, 0, .1);
-
-    color: rgb(102, 102, 102);
-    text-shadow: 0 0.08em 0.08em rgba(0, 0, 0, .1);
-
-    font-family: 'Ubuntu';
-    font-size: 0.833em;
-    line-height: 1.2em;
-    letter-spacing: -0.05em;
+.bottom {
+    position: fixed;
+    padding: 1.5em 0;
+    bottom: 0px;
 }
 
 .center {
@@ -110,16 +133,16 @@ i, em, .italic { font-style: italic }
     position: relative;
     float: left;
     width: 50%;
-    display: inline-block;
 }
 
 .right {
-    position: absolute;
+    position: relative;
     float: right;
     width: 50%;
+}
+
+.rtl {
     text-align: right;
-    right: 2em;
-    display: inline-block;
 }
 
 a {
@@ -135,4 +158,20 @@ a:hover {
 
 .video {
 	width: 100%;
+}
+
+.hidden {
+    color: white;
+    font-color: white;
+    text-color: white;
+}
+
+.red {
+    background: red;
+}
+.yellow {
+    background: yellow;
+}
+.green {
+    background: green;
 }
